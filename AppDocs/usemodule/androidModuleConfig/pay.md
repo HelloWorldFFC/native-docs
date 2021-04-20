@@ -8,7 +8,7 @@
 
 | 路径 | 文件 | 
 | :-------: | :-------: |
-| SDK\libs | payment-alipay-release.aar, alipayutdid.jar, alipaySdk-15.6.5-20190718211159-noUtdid.aar |
+| SDK\libs | payment-alipay-release.aar, alipayutdid.jar, alipaysdk-noutdid-15.8.00.201112210139.aar |
 
 ### Androidmainfest.xml文件需要修改的项
 
@@ -44,7 +44,7 @@ dcloud_properties.xml文件在assets/data目录下
 
 | 路径 | 文件 | 
 | :-------: | :-------: |
-| SDK\libs | payment-weixin-release.aar, wechat-sdk-android-with-mta-5.4.3.jar |
+| SDK\libs | payment-weixin-release.aar, wechat-sdk-android-without-mta-6.6.5.aar |
 
 需要将以下代码文件引入到工程，包名为”$你的包名.wxapi”
 
